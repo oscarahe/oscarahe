@@ -43,4 +43,8 @@ Por que creamos objetos al trabajar en R?
 2. Guardar cosas
 3. Ordenar el proceso de analisis y flujo de trabajo
 
+?De que forma se puede acceder al menu de ayuda sobre las funciones en R?
+1.# Miscelanea>help>escribir el nombre de la funcion
+2.?rep
+3.??lm
 
