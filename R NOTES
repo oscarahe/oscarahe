@@ -25,3 +25,22 @@
 
 Como activar la linea de margen vertical? 
 R= TOOLS> GLOBAL OPTIONS> CODE> DISPLAY> MARGIN
+
+ERROR: EL CODIGO NO SE EJECUTA
+WARNING: EL CODIGO SI SE EJECUTA, AVISA QUE TOMO UNA DESICION EN EL PROCESO
+
+Simbolo para crear objetos <- (ALT+-)
+
+Para nombrar objetos:
+1. NO podemos empezar con numeros al inicio
+2. NO usar palabras reservadas
+3. Recordar que se reescriben
+4. R es sensible a mayusculas y minusculas para los obejtos
+5. Evitar espacios
+
+Por que creamos objetos al trabajar en R? 
+1. Administrar la memoria RAM(Mientras mas objetos tengas, R puede colapsar)
+2. Guardar cosas
+3. Ordenar el proceso de analisis y flujo de trabajo
+
+
