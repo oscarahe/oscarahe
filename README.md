@@ -1,5 +1,5 @@
-- 👋 Hi, I’m @oscarahe
-- 👀 I’m interested in learning Python
+- 👋 Hi, I’m Oscar
+- 👀 I’m interested in learning Python,SQL
 - 🌱 I’m currently learning Pandas
 - 💞️ I’m looking to collaborate on Pandas Project
 - 📫 How to reach me  twitter @el_osalan, osaland@hotmail.com
