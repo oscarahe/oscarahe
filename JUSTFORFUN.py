@@ -34,6 +34,10 @@ for topping in pizza['toppings']:
     print(f"\t{topping}")
 
 
+#### nest a list inside a dictionary, more than one value be ac
+#### asssociated with a single key in a dictionary loop through the dictionary,
+###the value associated with each person would be a list of languages rather than a single language. Inside the dictionary’s for loop, we use another for loop
+
 favorite_languages = {
     'jen': ['python', 'rust'],
     'sarah': ['c'],
