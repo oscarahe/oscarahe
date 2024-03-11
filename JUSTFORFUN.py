@@ -72,3 +72,34 @@ if height >= 48:
     print("\nYou're tall enough to ride!")
 else:
     print("\nYou'll be able to ride when you're a little older.")
+
+#While Loop
+
+prompt = "\nTell me something, and I will repeat it back to you:"
+prompt += "\nEnter 'quit' to end the program. "
+
+message = ""
+while message != 'quit':
+    message = input(prompt)
+
+    if message!= 'quit':
+       print(message)
+
+
+
+while True:
+    city = input(prompt)
+
+    if city == 'quit':
+        break
+    else:
+        print(f"I'd love to go to {city.title()}!")   
+
+#Functions
+        
+def describe_pet(pet_name, animal_type='dog'):
+    """Display information about a pet."""
+    print(f"\nI have a {animal_type}.")
+    print(f"My {animal_type}'s name is {pet_name.title()}.")
+
+describe_pet(pet_name='willie')
