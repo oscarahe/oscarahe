@@ -60,3 +60,7 @@ prompt += "\nWhat is your first name? "
 
 name = input(prompt)
 print(f"\nHello, {name}!")
+
+age = input("How old are you? ")
+age=int(age)
+age>=18
