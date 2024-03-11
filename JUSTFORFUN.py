@@ -64,3 +64,11 @@ print(f"\nHello, {name}!")
 age = input("How old are you? ")
 age=int(age)
 age>=18
+
+height = input("How tall are you, in inches? ")
+height = int(height)
+
+if height >= 48:
+    print("\nYou're tall enough to ride!")
+else:
+    print("\nYou'll be able to ride when you're a little older.")
