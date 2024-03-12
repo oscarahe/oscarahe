@@ -103,3 +103,16 @@ def describe_pet(pet_name, animal_type='dog'):
     print(f"My {animal_type}'s name is {pet_name.title()}.")
 
 describe_pet(pet_name='willie')
+
+describe_pet('Gorda')
+
+#Returning a dictionariy, a function can return any kind of value, the following
+#function takes in parts of a name and returns a dictionary representing a person
+
+def build_person(first_name, last_name):
+    """Return a dictionary of information about a person."""
+    person = {'first': first_name, 'last': last_name}
+    return person
+
+musician = build_person('jimi', 'hendrix')
+print(musician)
