@@ -116,3 +116,13 @@ def build_person(first_name, last_name):
 
 musician = build_person('jimi', 'hendrix')
 print(musician)
+
+####Accessing Indices and Values Safely with Built-in Function enumerate
+
+numbers = [19, 3, 15, 7, 11]
+
+print('\nCreating a bar chart from numbers:')
+print(f'Index{"Value":>8}   Bar')
+
+for index, value in enumerate(numbers):  # produces (index, value) tuples
+    print(f'{index:>5}{value:>8}   {"*" * value}')
